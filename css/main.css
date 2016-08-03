@@ -1,0 +1,118 @@
+/* Inserta tu codigo aqui */
+.row{
+	margin:0;
+}
+/*estilos encabezado*/
+
+#logo{
+	width: 50%;
+	height: 50%;
+	margin-left: 50%; 
+}
+.img-header{
+	background: url("../img/semilla.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 25% 50%; 
+}
+
+/*estilos menu*/
+.borde{
+	border-right: 1px solid black;
+}
+ul{
+	margin: 1% 0;
+	text-align: center;
+	padding: 2%
+}
+li{
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 2%
+}
+li a{
+	text-decoration: none;
+	color: #000;
+}
+.img-header{
+	width: 100%;
+    height: 300px;
+}
+/*.fondo-header{
+	background-color: #DDD;
+	padding: 5% 10%;
+}*/
+/*estilos mision y vision*/
+.img-mision{
+	width: 30%;
+	height: 30%;
+}
+/*seccion metodologia*/
+.img-metodo{
+	width: 100%;
+	height: auto;
+}
+.fondo-metodo{
+	background: url("../img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 320px;
+}
+/*seccion proyectos*/
+.img-proyecto{
+	width: 100%;
+	height: auto;
+	padding: 5% 10% 0 0;
+}
+/*seccion equipos*/
+.img-redondo{
+	border-radius: 50%;
+	width: 50%;
+	height: auto;
+}
+.icon-redes{
+	width: 40%;
+	height: auto;
+}
+/*seccion blogs*/
+.fondo-blog{
+	background: url("../img/fondo2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: auto;
+}
+.img-blog{
+	width: 100%;
+	height: auto;
+}
+.img-blog-medio{
+	width: 73%;
+	height: auto;
+}
+/*flechas*/
+.flecha{
+	padding-top: 15%;
+}
+.text-gris{
+	color: #4D4C4C;
+}
+/*footer*/
+.fondo-gris{
+	background-color: #535353;
+}
+.borde-blanco{
+	border:1px solid #fff;
+	padding: 10% 5%;
+}
+.border-none{
+	border-right: 0;
+}
+.icon{
+	width: 50%;
+	height: auto;
+}
+span>a{
+	color: #EFC70B;
+	text-decoration: none;
+
+}
