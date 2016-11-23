@@ -15,7 +15,6 @@
 	background-size: cover;
 	background-position: 25% 50%; 
 }
-
 /*estilos menu*/
 .borde{
 	border-right: 1px solid black;
@@ -38,25 +37,21 @@ li a{
 	width: 100%;
     height: 300px;
 }
-/*.fondo-header{
-	background-color: #DDD;
-	padding: 5% 10%;
-}*/
 /*estilos mision y vision*/
 .img-mision{
 	width: 30%;
 	height: 30%;
 }
 /*seccion metodologia*/
-.img-metodo{
-	width: 100%;
-	height: auto;
-}
 .fondo-metodo{
-	background: url("../img/fondo.jpg");
+	background-image: url("../img/metodo.jpg"), url("../img/fondo.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	height: 320px;
+	background-size: 50% auto;
+	background-position: left top, right top;
+}
+.posicion{
+	width: 50%;
+	margin-left: 53%; 
 }
 /*seccion proyectos*/
 .img-proyecto{
@@ -71,7 +66,7 @@ li a{
 	height: auto;
 }
 .icon-redes{
-	width: 40%;
+	width: 50%;
 	height: auto;
 }
 /*seccion blogs*/
@@ -86,12 +81,19 @@ li a{
 	height: auto;
 }
 .img-blog-medio{
-	width: 73%;
+	width: 100%;
 	height: auto;
 }
 /*flechas*/
 .flecha{
-	padding-top: 15%;
+	padding-top: 10%;
+	position: absolute;
+}
+#izq{
+	left: 2%;
+}
+#der{
+	right: 2%;
 }
 .text-gris{
 	color: #4D4C4C;
@@ -102,17 +104,27 @@ li a{
 }
 .borde-blanco{
 	border:1px solid #fff;
-	padding: 10% 5%;
 }
 .border-none{
 	border-right: 0;
 }
 .icon{
-	width: 50%;
+	width: 30%;
 	height: auto;
+	margin-top: 30%;
+	margin-left: 60%;
+	padding: 10%;
 }
 span>a{
 	color: #EFC70B;
 	text-decoration: none;
-
+}
+/*h3*/
+h3{
+	color: #6F7E5D;
+	font-size: 1.2em;
+}
+h5{
+	font-size: 1.5em;
+	font-weight: 500;
 }
