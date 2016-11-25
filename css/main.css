@@ -1,13 +1,7 @@
 /* Inserta tu codigo aqui */
-.row{
-	margin:0;
-}
 /*estilos encabezado*/
-
 #logo{
-	width: 50%;
-	height: 50%;
-	margin-left: 50%; 
+	max-width: 40%;
 }
 .img-header{
 	background: url("../img/semilla.jpg");
@@ -15,24 +9,14 @@
 	background-size: cover;
 	background-position: 25% 50%; 
 }
-/*estilos menu*/
-.borde{
-	border-right: 1px solid black;
-}
 ul{
-	margin: 1% 0;
-	text-align: center;
-	padding: 2%
+	padding: 5%
 }
-li{
-	text-decoration: none;
-	display: inline-block;
-	padding: 0 2%
+.navbar-blanco{
+	margin-bottom: 0;
+	background-color: #fff;
 }
-li a{
-	text-decoration: none;
-	color: #000;
-}
+
 .img-header{
 	width: 100%;
     height: 300px;
@@ -43,11 +27,11 @@ li a{
 	height: 30%;
 }
 /*seccion metodologia*/
-.fondo-metodo{
-	background-image: url("../img/metodo.jpg"), url("../img/fondo.jpg");
+.fondo{
+	background-image: url("../img/fondo.jpg");
 	background-repeat: no-repeat;
-	background-size: 50% auto;
-	background-position: left top, right top;
+	background-size: 100%;
+	
 }
 .posicion{
 	width: 50%;
@@ -60,14 +44,11 @@ li a{
 	padding: 5% 10% 0 0;
 }
 /*seccion equipos*/
-.img-redondo{
-	border-radius: 50%;
-	width: 50%;
-	height: auto;
+.redondo{
+	width: 40%;
 }
 .icon-redes{
-	width: 50%;
-	height: auto;
+	max-width: 10%;
 }
 /*seccion blogs*/
 .fondo-blog{
@@ -109,8 +90,7 @@ li a{
 	border-right: 0;
 }
 .icon{
-	width: 30%;
-	height: auto;
+	max-width: 40%;
 	margin-top: 30%;
 	margin-left: 60%;
 	padding: 10%;
