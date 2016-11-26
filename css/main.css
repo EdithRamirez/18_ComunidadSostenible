@@ -10,7 +10,7 @@
 	background-position: 25% 50%; 
 }
 ul{
-	padding: 5%
+	padding: 2%
 }
 .navbar-blanco{
 	margin-bottom: 0;
@@ -28,10 +28,11 @@ ul{
 }
 /*seccion metodologia*/
 .fondo{
+	background-image: url("../img/metodo.jpg");
+	padding: 14%;
+}
+.fondo1{
 	background-image: url("../img/fondo.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	
 }
 .posicion{
 	width: 50%;
@@ -107,4 +108,40 @@ h3{
 h5{
 	font-size: 1.5em;
 	font-weight: 500;
+}
+.navbar-brand{
+	padding: 0;
+}
+
+/*media queries*/
+@media (min-width: 1200px) {
+	#logo{
+		max-width: 40%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.pd-10{
+		padding: 4.5%;
+	}
+}
+
+@media (max-width: 768px) {
+	#logo{
+		max-width: 30%;
+	}	
+	.navbar-brand{
+		height: 5px;
+	}
+	.pd-10{
+		padding: 5%;
+	}
+}
+
+@media (max-width: 480px) {
+	.pt-10 {
+		padding-top: 5%;
+	}
+	#logo{
+		max-width: 30%;
+	}
 }

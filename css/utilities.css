@@ -17,9 +17,17 @@
 }
 
 /* Shortcuts */
-
+.mgt-5{
+	margin-top: 5%;
+}
 .pd-0 {
 	padding: 0;
+}
+.pd-2 {
+	padding: 2%;
+}
+.pd-10 {
+	padding: 10%;
 }
 .pt-5 {
 	padding-top: 5%;
@@ -30,8 +38,14 @@
 .pb-5{
 	padding-bottom: 5%;
 }
+.pb-10{
+	padding-bottom: 10%;
+}
 .pd-5 {
 	padding: 5%;
+}
+.pt-15 {
+	padding-top: 15%;
 }
 .pd-5-10{
 	padding: 5% 10%;
@@ -96,5 +110,4 @@
 .bg-img-block{
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
 }
